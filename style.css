@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    height: 100vh;              /* full viewport height */
+    display: flex;              /* enable flexbox */
+    flex-direction: column;     /* stack items vertically */
+    justify-content: center;    /* center vertically */
+    align-items: center;        /* center horizontally */
+    background-color: lightpink;  /* optional background */
+}
+
+textarea {
+    width: 500px;               /* set width */
+    height: 150px;              /* set height */
+    margin: 10px 0;             /* spacing around */
+}
+@media screen and (max-width: 600px) {
+    textarea {
+        width: 90%;            /* responsive width for small screens */
+    }
+    
+}
